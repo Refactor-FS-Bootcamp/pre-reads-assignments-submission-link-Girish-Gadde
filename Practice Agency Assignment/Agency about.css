@@ -1,0 +1,121 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    
+    border-bottom: yellow 5px solid;
+}
+
+.heading{
+    width: 80%;
+    margin: auto;
+}
+.heading h1{
+    padding-bottom: 20px;
+}
+.heading nav{
+    float: right;
+    padding-top: 10px;
+}
+.heading li{
+    display: inline;
+    padding: 0 40px;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+    
+}
+.content{
+    min-height: 700px;
+    padding-left: 20px;
+    background-color: rgb(178, 248, 225);
+    
+}
+.container h1{
+    float: right;
+    position: relative;
+    top: 150px;
+    right: 550px;
+    
+}
+.container h2{
+    position: relative;
+    top: 100px;
+    left: 227px;
+    padding: 0;
+    margin: 0;
+
+}
+.container p{
+    width: 550px;
+    position: relative;
+    top: 200px;
+    float: right;
+    color: rgb(2, 4, 22);
+    
+}
+.footing{
+position: relative;
+left: 500px;
+display: flex;
+}
+.fa-brands{
+    padding: 10px 40px;
+    font-size: 30px;
+}
+div a{
+    text-decoration: none;
+}
+.social p{
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0;
+}
+footer{
+    height: auto;
+    padding: 10px;
+    color: rgb(2, 4, 22);
+    background-color: orange;
+    
+}
+.contact h3{
+    float: right;
+    position: relative;
+    right: 518px;
+} 
+.contact p{
+    float: right;
+    position: relative;
+    right: 300px;
+    top: 40px;
+
+}
+@media screen and (min-width:500px){
+
+  img{
+    position: relative;
+    top: 130px;
+    left: 100px;
+    padding: 20px;
+    border-radius: 50%;
+  }
+
+
+
+}
+

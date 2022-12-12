@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgba(251, 255, 0, 0.808) 5px solid;
+}
+
+.heading{
+    width: 80%;
+    margin: auto;
+}
+.heading h1{
+    padding-bottom: 20px;
+}
+.heading nav{
+    float: right;
+    padding-top: 10px;
+}
+.heading li{
+    display: inline;
+    padding: 0 40px;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+}
+.heading a:hover{
+    background-color: #e2a68e;
+}
+
+footer{
+    bottom: 0;
+    padding: 25px;
+    color: rgb(2, 4, 22);
+    background-color: orange;
+    text-align: center;
+    
+}
+
+.fa-brands {
+    font-size: 100px;
+    padding: 0 47px;
+    
+}
+.fa-brands.fa-node-js{
+    padding: 0 35px;
+}
+
+
+.icon h3{
+    position: absolute;
+    padding-inline: 60px;
+ 
+}
+
+@media screen and (min-width:700px) {
+    .image{
+        float: right;
+        position: relative;
+        top: 20px;
+        height: 600px;
+        width: 600px;
+        padding: 20px; 
+        margin: 20px;
+        border-radius: 50%;
+    
+    }
+
+.container h1{
+    position: relative;
+    top: 35px;
+    padding: 20px;
+    margin: 0 15px;
+
+}
+.container p{
+    float: left;
+    position: absolute;
+    top: 185px;
+    width: 600px;
+    padding: 20px;
+    color: rgb(2, 4, 22);
+    margin: 0 15px;
+}
+.name{
+    position: relative;
+    top: 600px;
+    padding: 20px;
+}
+.contain{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: 30px;
+    top: 350px;
+    padding: 20px;
+    display: flex;
+    
+
+}
+.contain1{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+    top: 580px;
+    padding: 20px;
+    display: flex;
+    
+
+}
+.content{
+    min-height: 700px;
+    padding-left: 20px;
+    background-color: rgb(238, 171, 171);
+
+    
+}
+
+}
