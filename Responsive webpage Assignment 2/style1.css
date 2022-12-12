@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(245, 176, 149);
+    box-sizing: border-box;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+.username{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.username.data1{
+    max-width: 700px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:700px)  {
+    .box{
+        position: relative;
+        height: 600px;
+        width: 600px;
+        padding: 20px; 
+        margin: 20px;
+        float: right;
+        border-radius: 300px;
+        
+     }
+   
+}

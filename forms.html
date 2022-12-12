@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form action="results.html" method= "GET" enctype="multipart/form-data"> 
+        <div>
+            <label for="first name">First Name</label>
+            <input type="text" name="first name" id="first name" required>
+        </div>
+        <br><br><br>
+
+        <div>
+            <label for="second name">Second Name</label>
+            <input type="text" name="second name" id="second name" required>
+        </div>
+        <br><br><br>
+        <div>
+            Gender
+
+                <label for="male">Male</label>
+                <input type="radio" name ="gender" id="male">
+            
+                <label for="female">Female</label>
+                <input type="radio" name ="gender" id="female">
+        </div>
+        <br><br><br>
+
+        <div>
+            <label for="file">File</label>
+            <input type="file" name ="file" id="file">
+        </div>
+        <br><br><br>
+
+        <div>
+            <label for="bio">Self description</label>
+            <textarea type="bio" name ="bio" id="bio"> I am Girish </textarea>
+        </div>
+        <br><br><br>
+
+        <div>
+            <label for="country">Country</label>
+            <select name="select" id="select">
+                <option value="India"> India</option>
+                <option value="USA">  USA</option>
+                <option value="Germany"> Germany</option>
+                <option value="England"> England</option>
+            </select>
+        </div>
+        <br><br><br>
+
+        <button type="submit">Submit </button>
+        <button type="reset"> Reset</button>
+
+
+
+
+
+
+    </form>
+   
+    
+</body>
+</html>
